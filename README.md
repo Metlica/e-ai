@@ -1,2 +1,2 @@
-# e-ai
-Sistema de avaliação de aulas
+# e Aí?
+Sistema de coleta de opinião baseado em questionários
