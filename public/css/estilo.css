@@ -17,3 +17,27 @@
     position: relative;
     float: right;
 }
+
+#cadastro{
+   width: 50%;
+    min-width: 300px;
+    height: 50%;
+    min-height: 300px;
+    position: absolute;
+    margin: auto;
+    left: 0px; top: 0px; right: 0px; bottom: 0px;
+}
+
+#cadastro form .bnt{
+    position: relative;
+    float: right;
+}
+
+#cadastro form{
+    margin: 15px;
+    position: relative;
+}
+
+#tipo{
+    margin-top: 24px;
+}
