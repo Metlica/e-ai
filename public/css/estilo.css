@@ -27,27 +27,30 @@ body,
     float: right;
 }
 
-#cadastro{
-   width: 50%;
+#cadastro {
+    width: 50%;
     min-width: 300px;
     height: 50%;
     min-height: 300px;
     position: absolute;
     margin: auto;
-    left: 0px; top: 0px; right: 0px; bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
 }
 
-#cadastro form .bnt{
+#cadastro form .bnt {
     position: relative;
     float: right;
 }
 
-#cadastro form{
+#cadastro form {
     margin: 15px;
     position: relative;
 }
 
-#tipo{
+#tipo {
     margin-top: 24px;
 }
 
@@ -88,4 +91,19 @@ body,
     background-image: linear-gradient(to bottom, #337ab7 0, #2e6da4 100%);
     text-align: center;
     height: 80%;
+}
+#PerguntasCadastro {
+    margin: 15px;
+    position: relative;
+}
+
+#bntPergCad {
+    margin: 15px;
+    position: relative;
+    float: right;
+}
+
+#camposPergCad {
+    margin: 15px;
+    position: relative;
 }
