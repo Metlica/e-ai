@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR" ng-app="eai">
 
 <head>
     <meta charset="UTF-8">
@@ -13,11 +13,14 @@
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 
+    <script src="angular.min.js"></script>
+    <script src="angular-route.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 </head>
 
-<body>
+<body id="corpo">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
 
@@ -34,18 +37,17 @@
 
     <div id="principal" class="container-fluid">
         <div class="row">
-            <div class="col-md-2">
+            <div id="menu" class="col-md-2">
                 <ul class="nav nav-pills nav-stacked">
-                    <li role="presentation" class="active"><a href="#">Usuário</a></li>
-                    <li role="presentation"><a href="#">Pesquisas</a></li>
-                    <li role="presentation"><a href="#">Perguntas</a></li>
-                    <li role="presentation"><a href="#">Questionários</a></li>
-
+                    <li role="presentation" class="active"><a href="idUsuario">Usuário</a></li>
+                    <li role="presentation"><a href="idPesquisa">Pesquisas</a></li>
+                    <li role="presentation"><a href="idPerguntas">Perguntas</a></li>
+                    <li role="presentation"><a href="idQuestionario">Questionários</a></li>
                 </ul>
             </div>
             <div class="col-md-8">
-                
-                
+                <form></form>
+
             </div>
             <div class="col-md-2">
 
